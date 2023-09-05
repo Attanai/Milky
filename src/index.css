@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply block py-2 pl-3 pr-4 text-white bg-[#5b8c51] rounded md:bg-transparent md:text-[#5b8c51] md:p-0 ;
+}
